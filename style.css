@@ -120,6 +120,13 @@ footer a:hover {
     margin: 1rem 0;
 }
 
+.right-arrow {
+	max-width: 2rem;
+	margin-left: 1rem;
+	margin-top: 0.2rem;
+}
+
+
 /* Background Images */
 .bg-image {
     background-color: rgb(240,240,240); 
