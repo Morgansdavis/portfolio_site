@@ -44,6 +44,21 @@ html {
 .center { text-align: center; }
 .right  { text-align: right; }
 
+.capped-width {
+    max-width: 1000px;
+    margin: auto;
+ }
+ 
+ .capped-width-narrow {
+    max-width: 900px;
+    margin: auto;
+ }
+ 
+ .flex-flip-alternate:nth-child(even) {
+    flex-direction: row-reverse;
+ }
+ 
+
 /* Typography */
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -104,6 +119,11 @@ a:hover { color: #a2745c; }
     font-size: 0.9rem;
 }
 
+.emphasis {
+    font-size: 1.1rem;
+    font-weight: 400;
+ } 
+
 /* Header & Footer  */
 header {
     padding: 2% 5%;
@@ -151,6 +171,19 @@ footer a:hover {
 .bg-mockup {
     background-image: url('/images/mockup.jpg');
 }
+
+.profile-image {
+    border-radius: 100%;
+ }
+
+ /* Responsive video */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+ }
 
 /* SM - max-width in pixels approximately 768px */
 @media(max-width: 48em) {
