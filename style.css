@@ -32,7 +32,10 @@ html {
 
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0; }
+
 .margin-b-0 { margin-bottom: 0; }
+.margin-b-1 { margin-bottom: 1rem; }
+.margin-b-2 { margin-bottom: 2rem; }
 
 .bg-rust  { background-color: #d3b4a2; }
 .bg-green { background-color: #9b9b81; }
@@ -92,6 +95,7 @@ p:last-child {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 nav a {
@@ -99,7 +103,10 @@ nav a {
     padding: 0.25rem;
 }
 
-a:hover { color: #a2745c; }
+a:hover { 
+    color: #a2745c;
+    text-decoration: none; 
+}
 
 .button {
   text-decoration: none;
@@ -109,6 +116,17 @@ a:hover { color: #a2745c; }
   font-weight: 400;
   color: white;
 }
+
+.featured-button {
+    text-decoration: none;
+    border: 2px solid; 
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    font-weight: 400;
+    color: #a2745c;
+  }
+
+.featured-button .button:hover {color: #d3b4a2}
 
 .bg-dark .button:hover {
     color: #d3b4a2;
@@ -174,6 +192,10 @@ footer a:hover {
 
 .profile-image {
     border-radius: 100%;
+ }
+
+ .landscape {
+    padding-bottom: 60%
  }
 
  /* Responsive video */
