@@ -198,6 +198,12 @@ footer a:hover {
     padding-bottom: 60%
  }
 
+ .featured-project {
+    padding-bottom: 60%;
+    max-height: 5rem;
+    background-position: 100%;
+ }
+
  /* Responsive video */
 .embed-container {
     position: relative;
